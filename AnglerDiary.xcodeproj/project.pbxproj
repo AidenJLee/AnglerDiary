@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B07766B2C5A26EA00CD1282 /* AnglerDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07766A2C5A26EA00CD1282 /* AnglerDiaryApp.swift */; };
+		7B07766D2C5A26EA00CD1282 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07766C2C5A26EA00CD1282 /* ContentView.swift */; };
+		7B07766F2C5A26EA00CD1282 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07766E2C5A26EA00CD1282 /* Item.swift */; };
+		7B0776712C5A26EC00CD1282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B0776702C5A26EC00CD1282 /* Assets.xcassets */; };
+		7B0776742C5A26EC00CD1282 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B0776732C5A26EC00CD1282 /* Preview Assets.xcassets */; };
+		7B07767E2C5A26ED00CD1282 /* AnglerDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07767D2C5A26ED00CD1282 /* AnglerDiaryTests.swift */; };
+		7B0776882C5A26ED00CD1282 /* AnglerDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0776872C5A26ED00CD1282 /* AnglerDiaryUITests.swift */; };
+		7B07768A2C5A26ED00CD1282 /* AnglerDiaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B0776892C5A26ED00CD1282 /* AnglerDiaryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B07767A2C5A26ED00CD1282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B07765F2C5A26EA00CD1282 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B0776662C5A26EA00CD1282;
+			remoteInfo = AnglerDiary;
+		};
+		7B0776842C5A26ED00CD1282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B07765F2C5A26EA00CD1282 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B0776662C5A26EA00CD1282;
+			remoteInfo = AnglerDiary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B0776672C5A26EA00CD1282 /* AnglerDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnglerDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B07766A2C5A26EA00CD1282 /* AnglerDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnglerDiaryApp.swift; sourceTree = "<group>"; };
+		7B07766C2C5A26EA00CD1282 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B07766E2C5A26EA00CD1282 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		7B0776702C5A26EC00CD1282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B0776732C5A26EC00CD1282 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7B0776792C5A26ED00CD1282 /* AnglerDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnglerDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B07767D2C5A26ED00CD1282 /* AnglerDiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnglerDiaryTests.swift; sourceTree = "<group>"; };
+		7B0776832C5A26ED00CD1282 /* AnglerDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnglerDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B0776872C5A26ED00CD1282 /* AnglerDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnglerDiaryUITests.swift; sourceTree = "<group>"; };
+		7B0776892C5A26ED00CD1282 /* AnglerDiaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnglerDiaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B0776642C5A26EA00CD1282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B0776762C5A26ED00CD1282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B0776802C5A26ED00CD1282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B07765E2C5A26EA00CD1282 = {
+			isa = PBXGroup;
+			children = (
+				7B0776692C5A26EA00CD1282 /* AnglerDiary */,
+				7B07767C2C5A26ED00CD1282 /* AnglerDiaryTests */,
+				7B0776862C5A26ED00CD1282 /* AnglerDiaryUITests */,
+				7B0776682C5A26EA00CD1282 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B0776682C5A26EA00CD1282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B0776672C5A26EA00CD1282 /* AnglerDiary.app */,
+				7B0776792C5A26ED00CD1282 /* AnglerDiaryTests.xctest */,
+				7B0776832C5A26ED00CD1282 /* AnglerDiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B0776692C5A26EA00CD1282 /* AnglerDiary */ = {
+			isa = PBXGroup;
+			children = (
+				7B07766A2C5A26EA00CD1282 /* AnglerDiaryApp.swift */,
+				7B07766C2C5A26EA00CD1282 /* ContentView.swift */,
+				7B07766E2C5A26EA00CD1282 /* Item.swift */,
+				7B0776702C5A26EC00CD1282 /* Assets.xcassets */,
+				7B0776722C5A26EC00CD1282 /* Preview Content */,
+			);
+			path = AnglerDiary;
+			sourceTree = "<group>";
+		};
+		7B0776722C5A26EC00CD1282 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7B0776732C5A26EC00CD1282 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7B07767C2C5A26ED00CD1282 /* AnglerDiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B07767D2C5A26ED00CD1282 /* AnglerDiaryTests.swift */,
+			);
+			path = AnglerDiaryTests;
+			sourceTree = "<group>";
+		};
+		7B0776862C5A26ED00CD1282 /* AnglerDiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B0776872C5A26ED00CD1282 /* AnglerDiaryUITests.swift */,
+				7B0776892C5A26ED00CD1282 /* AnglerDiaryUITestsLaunchTests.swift */,
+			);
+			path = AnglerDiaryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B0776662C5A26EA00CD1282 /* AnglerDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B07768D2C5A26ED00CD1282 /* Build configuration list for PBXNativeTarget "AnglerDiary" */;
+			buildPhases = (
+				7B0776632C5A26EA00CD1282 /* Sources */,
+				7B0776642C5A26EA00CD1282 /* Frameworks */,
+				7B0776652C5A26EA00CD1282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnglerDiary;
+			productName = AnglerDiary;
+			productReference = 7B0776672C5A26EA00CD1282 /* AnglerDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B0776782C5A26ED00CD1282 /* AnglerDiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B0776902C5A26ED00CD1282 /* Build configuration list for PBXNativeTarget "AnglerDiaryTests" */;
+			buildPhases = (
+				7B0776752C5A26ED00CD1282 /* Sources */,
+				7B0776762C5A26ED00CD1282 /* Frameworks */,
+				7B0776772C5A26ED00CD1282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B07767B2C5A26ED00CD1282 /* PBXTargetDependency */,
+			);
+			name = AnglerDiaryTests;
+			productName = AnglerDiaryTests;
+			productReference = 7B0776792C5A26ED00CD1282 /* AnglerDiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B0776822C5A26ED00CD1282 /* AnglerDiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B0776932C5A26ED00CD1282 /* Build configuration list for PBXNativeTarget "AnglerDiaryUITests" */;
+			buildPhases = (
+				7B07767F2C5A26ED00CD1282 /* Sources */,
+				7B0776802C5A26ED00CD1282 /* Frameworks */,
+				7B0776812C5A26ED00CD1282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B0776852C5A26ED00CD1282 /* PBXTargetDependency */,
+			);
+			name = AnglerDiaryUITests;
+			productName = AnglerDiaryUITests;
+			productReference = 7B0776832C5A26ED00CD1282 /* AnglerDiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B07765F2C5A26EA00CD1282 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7B0776662C5A26EA00CD1282 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					7B0776782C5A26ED00CD1282 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7B0776662C5A26EA00CD1282;
+					};
+					7B0776822C5A26ED00CD1282 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7B0776662C5A26EA00CD1282;
+					};
+				};
+			};
+			buildConfigurationList = 7B0776622C5A26EA00CD1282 /* Build configuration list for PBXProject "AnglerDiary" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B07765E2C5A26EA00CD1282;
+			productRefGroup = 7B0776682C5A26EA00CD1282 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B0776662C5A26EA00CD1282 /* AnglerDiary */,
+				7B0776782C5A26ED00CD1282 /* AnglerDiaryTests */,
+				7B0776822C5A26ED00CD1282 /* AnglerDiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B0776652C5A26EA00CD1282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0776742C5A26EC00CD1282 /* Preview Assets.xcassets in Resources */,
+				7B0776712C5A26EC00CD1282 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B0776772C5A26ED00CD1282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B0776812C5A26ED00CD1282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B0776632C5A26EA00CD1282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B07766D2C5A26EA00CD1282 /* ContentView.swift in Sources */,
+				7B07766F2C5A26EA00CD1282 /* Item.swift in Sources */,
+				7B07766B2C5A26EA00CD1282 /* AnglerDiaryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B0776752C5A26ED00CD1282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B07767E2C5A26ED00CD1282 /* AnglerDiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B07767F2C5A26ED00CD1282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B0776882C5A26ED00CD1282 /* AnglerDiaryUITests.swift in Sources */,
+				7B07768A2C5A26ED00CD1282 /* AnglerDiaryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B07767B2C5A26ED00CD1282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B0776662C5A26EA00CD1282 /* AnglerDiary */;
+			targetProxy = 7B07767A2C5A26ED00CD1282 /* PBXContainerItemProxy */;
+		};
+		7B0776852C5A26ED00CD1282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B0776662C5A26EA00CD1282 /* AnglerDiary */;
+			targetProxy = 7B0776842C5A26ED00CD1282 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7B07768B2C5A26ED00CD1282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B07768C2C5A26ED00CD1282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B07768E2C5A26ED00CD1282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnglerDiary/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entist.AnglerDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B07768F2C5A26ED00CD1282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnglerDiary/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entist.AnglerDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7B0776912C5A26ED00CD1282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entist.AnglerDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnglerDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnglerDiary";
+			};
+			name = Debug;
+		};
+		7B0776922C5A26ED00CD1282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entist.AnglerDiaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnglerDiary.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnglerDiary";
+			};
+			name = Release;
+		};
+		7B0776942C5A26ED00CD1282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entist.AnglerDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnglerDiary;
+			};
+			name = Debug;
+		};
+		7B0776952C5A26ED00CD1282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.entist.AnglerDiaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnglerDiary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B0776622C5A26EA00CD1282 /* Build configuration list for PBXProject "AnglerDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B07768B2C5A26ED00CD1282 /* Debug */,
+				7B07768C2C5A26ED00CD1282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B07768D2C5A26ED00CD1282 /* Build configuration list for PBXNativeTarget "AnglerDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B07768E2C5A26ED00CD1282 /* Debug */,
+				7B07768F2C5A26ED00CD1282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B0776902C5A26ED00CD1282 /* Build configuration list for PBXNativeTarget "AnglerDiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B0776912C5A26ED00CD1282 /* Debug */,
+				7B0776922C5A26ED00CD1282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B0776932C5A26ED00CD1282 /* Build configuration list for PBXNativeTarget "AnglerDiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B0776942C5A26ED00CD1282 /* Debug */,
+				7B0776952C5A26ED00CD1282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B07765F2C5A26EA00CD1282 /* Project object */;
+}
