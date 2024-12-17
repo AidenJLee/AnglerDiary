@@ -1,0 +1,15 @@
+{
+  "originHash" : "ff4d56e9f2c8c36c5d6e37df4edb7575241c748291d3d11f0b568d91972f9c98",
+  "pins" : [
+    {
+      "identity" : "declarativeconnectkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AidenJLee/DeclarativeConnectKit",
+      "state" : {
+        "revision" : "3c99a1f4e45c3efa6ebb3ac6024e02dd800a614e",
+        "version" : "1.0.6"
+      }
+    }
+  ],
+  "version" : 3
+}

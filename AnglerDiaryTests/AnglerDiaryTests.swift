@@ -1,10 +1,3 @@
-//
-//  AnglerDiaryTests.swift
-//  AnglerDiaryTests
-//
-//  Created by Tway IT on 7/31/24.
-//
-
 import XCTest
 @testable import AnglerDiary
 

@@ -1,10 +1,3 @@
-//
-//  AnglerDiaryUITests.swift
-//  AnglerDiaryUITests
-//
-//  Created by Tway IT on 7/31/24.
-//
-
 import XCTest
 
 final class AnglerDiaryUITests: XCTestCase {
