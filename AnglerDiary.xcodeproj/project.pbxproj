@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F4E03672D18F5C50088F005 /* FlowNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F4E03662D18F5C50088F005 /* FlowNet.swift */; };
 		7B07766B2C5A26EA00CD1282 /* AnglerDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07766A2C5A26EA00CD1282 /* AnglerDiaryApp.swift */; };
 		7B07766D2C5A26EA00CD1282 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B07766C2C5A26EA00CD1282 /* ContentView.swift */; };
 		7B0776712C5A26EC00CD1282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B0776702C5A26EC00CD1282 /* Assets.xcassets */; };
@@ -65,6 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F4E03662D18F5C50088F005 /* FlowNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowNet.swift; sourceTree = "<group>"; };
 		7B0776672C5A26EA00CD1282 /* AnglerDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnglerDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B07766A2C5A26EA00CD1282 /* AnglerDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnglerDiaryApp.swift; sourceTree = "<group>"; };
 		7B07766C2C5A26EA00CD1282 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				7B0776B82C5A2ADF00CD1282 /* DateFormatter.swift */,
 				7B07769E2C5A286600CD1282 /* UserDefault.swift */,
 				7B07769D2C5A286600CD1282 /* PublishedAppStorage.swift */,
+				0F4E03662D18F5C50088F005 /* FlowNet.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -539,6 +542,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F4E03672D18F5C50088F005 /* FlowNet.swift in Sources */,
 				7B735F9D2C5CC5A500239A30 /* SideMenuView.swift in Sources */,
 				7BE67B4D2C607FFE003DF6FC /* EquipmentView.swift in Sources */,
 				7BE67B402C606C92003DF6FC /* HomeView.swift in Sources */,
