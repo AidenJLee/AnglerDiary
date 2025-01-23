@@ -61,3 +61,6 @@ fastlane/test_output/
 # App store & TestFlight data
 *.ipa
 *.app
+
+# Xcode user interface state files
+*.xcuserstate
