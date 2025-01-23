@@ -1,0 +1,63 @@
+# Xcode
+#
+# User-specific files
+.DS_Store
+*.swp
+.idea/
+
+# Xcode specific
+xcuserdata/
+*.xccheckout
+*.xcworkspace
+*.xcodeproj/project.xcuserstate
+*.xcodeproj/xcuserdata/
+
+# Derived data
+DerivedData/
+
+# User-specific xcconfig settings
+xcconfig/
+
+# Build products
+build/
+Build/
+
+# SwiftPM
+# Swift Package Manager
+/.build/
+
+# CocoaPods
+#
+# Pods directory is ignored
+Pods/
+
+# Carthage
+#
+# Carthage directory is ignored
+Carthage/
+
+# Mint
+.mint/
+
+# Fastlane
+#
+# Fastlane specific files
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# iOS provisioning profiles
+# Ignore provisioning profiles and certificates
+*.mobileprovision
+*.p12
+
+# Archive files
+*.xcarchive
+
+# xcdebugger logs
+*.xcdebugger/
+
+# App store & TestFlight data
+*.ipa
+*.app
